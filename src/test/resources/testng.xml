@@ -1,0 +1,12 @@
+<suite name="AppiumTestSuite">
+    <test name="valid tests">
+        <classes>
+            <class name="tests.ValidCredential"/>
+        </classes>
+    </test>
+    <test name="invalid tests">
+        <classes>
+            <class name="tests.InvalidCredentials"/>
+        </classes>
+    </test>
+</suite>

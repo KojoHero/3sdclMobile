@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-18T23:52:36 GMT" name="Default suite" finished-at="2023-09-18T23:52:54 GMT" duration-ms="18518">
+    <groups>
+    </groups>
+    <test started-at="2023-09-18T23:52:36 GMT" name="Default test" finished-at="2023-09-18T23:52:54 GMT" duration-ms="18518">
+      <class name="tests.ValidCredential">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ValidCredential@4659191b]" started-at="2023-09-18T23:52:36 GMT" name="setup" finished-at="2023-09-18T23:52:46 GMT" duration-ms="10458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupElements()[pri:0, instance:tests.ValidCredential@4659191b]" started-at="2023-09-18T23:52:46 GMT" name="setupElements" finished-at="2023-09-18T23:52:47 GMT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupElements -->
+        <test-method signature="correctCredentials()[pri:0, instance:tests.ValidCredential@4659191b]" started-at="2023-09-18T23:52:47 GMT" name="correctCredentials" finished-at="2023-09-18T23:52:54 GMT" duration-ms="7647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ValidCredential@4659191b]" started-at="2023-09-18T23:52:55 GMT" name="teardown" finished-at="2023-09-18T23:52:55 GMT" duration-ms="76" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Godsways-MBP', ip: 'fd02:16e2:276e:ce00:1c5c:dcbb:6011:b0bc%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.threesdcl.eadapploginsp..., appPackage: com.threesdcl.eadapploginspa, databaseEnabled: false, desired: {appActivity: com.threesdcl.eadapploginsp..., appPackage: com.threesdcl.eadapploginspa, deviceName: Galaxy S21 FE 5G, newCommandTimeout: 60, platformName: android, platformVersion: 13, udid: R5CRC2405JM}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-G990E, deviceName: R5CRC2405JM, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: R5CRC2405JM, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 97, takesScreenshot: true, udid: R5CRC2405JM, viewportRect: {height: 2099, left: 0, top: 97, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca071b57-58fe-4731-9b4b-1d6e1f968a8f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Godsways-MBP', ip: 'fd02:16e2:276e:ce00:1c5c:dcbb:6011:b0bc%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.threesdcl.eadapploginsp..., appPackage: com.threesdcl.eadapploginspa, databaseEnabled: false, desired: {appActivity: com.threesdcl.eadapploginsp..., appPackage: com.threesdcl.eadapploginspa, deviceName: Galaxy S21 FE 5G, newCommandTimeout: 60, platformName: android, platformVersion: 13, udid: R5CRC2405JM}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-G990E, deviceName: R5CRC2405JM, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: R5CRC2405JM, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 97, takesScreenshot: true, udid: R5CRC2405JM, viewportRect: {height: 2099, left: 0, top: 97, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca071b57-58fe-4731-9b4b-1d6e1f968a8f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at tests.BaseClass.teardown(BaseClass.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:404)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ValidCredential -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AppiumTestSuite]">
+  <test thread-count="5" name="valid tests(failed)">
+    <classes>
+      <class name="tests.ValidCredential">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="correctCredentials"/>
+          <include name="setupElements"/>
+        </methods>
+      </class> <!-- tests.ValidCredential -->
+    </classes>
+  </test> <!-- valid tests(failed) -->
+</suite> <!-- Failed suite [AppiumTestSuite] -->
